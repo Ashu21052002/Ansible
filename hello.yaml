@@ -1,0 +1,9 @@
+---
+- name: Hello World Demo Playbook
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: Print a greeting message
+      ansible.builtin.debug:
+        msg: "Hello! Your Ansible Automation Platform 2.5 setup is working perfectly."
