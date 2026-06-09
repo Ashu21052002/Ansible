@@ -1,7 +1,7 @@
 ---
 - name: Hello World Demo Playbook
   hosts: all
-  gather_facts: true
+  gather_facts: false
 
   tasks:
     - name: Print a greeting message
